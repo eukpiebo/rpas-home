@@ -1,0 +1,16 @@
+.navbar-default.navbar-shrink .nav li a {
+    color: rgb(20, 20, 20);
+}
+
+.navbar-default {
+    background-color: #fcfcfc1a;
+    padding: 10px 0;
+}
+
+.navbar-default.navbar-shrink {
+    background-color: rgba(247, 244, 244, 0.911);
+}
+
+.bg-light-blue {
+    background-color: #ffffff;
+}

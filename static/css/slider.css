@@ -1,0 +1,61 @@
+.crossfade > figure {
+    animation: imageAnimation 30s linear infinite 0s;
+    backface-visibility: hidden;
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+    color: transparent;
+    height: 100%;
+    left: 0px;
+    opacity: 0;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+/*#services {
+  margin-top: 500px;
+}*/
+.crossfade > figure:nth-child(1) {
+  background-image: url(../img/header-bg.jpg); 
+}
+
+.crossfade > figure:nth-child(2) {
+  animation-delay: 6s;
+  background-image: url(../img/revslidebg2.jpg);
+}
+
+.crossfade > figure:nth-child(3) {
+  animation-delay: 12s;
+  background-image: url(../img/header-bg.jpg); 
+}
+
+.crossfade > figure:nth-child(4) {
+  animation-delay: 18s;
+  background-image: url(../img/revslidebg2.jpg);
+}
+
+.crossfade > figure:nth-child(5) {
+  animation-delay: 24s;
+  background-image: url(../img/header-bg.jpg); 
+}
+
+@keyframes 
+imageAnimation {  0% {
+ animation-timing-function: ease-in;
+ opacity: 0;
+}
+ 8% {
+ animation-timing-function: ease-out;
+ opacity: 100;
+}
+ 17% {
+ opacity: 100
+}
+ 45% {
+ opacity: 100
+}
+ 100% {
+ opacity: 20
+}
+}
